@@ -1,0 +1,174 @@
+{
+  "id": "sigf/skatebird-cyberpunk-2077-takeover",
+  "version": "1.0.0",
+  "name": "Cyberpunk 2077 Takeover",
+  "tagline": "Bring Cyberpunk 2077 into the game in the most visible and funny way. The change shows in the first 30 seconds of play.",
+  "kind": "mashup",
+  "games": [
+    {
+      "game": "skatebird",
+      "role": "host",
+      "engine": "SkateBIRD (itch build, Unity 2019.4.20f1 Mono, 64-bit, game exe SkateBIRD.exe) + BepInEx 5.4.23.2 x64 C# plugin (net472)"
+    },
+    {
+      "game": "cyberpunk",
+      "role": "guest",
+      "label": "Cyberpunk 2077"
+    }
+  ],
+  "requires": [
+    {
+      "id": "bepinex"
+    }
+  ],
+  "install": [
+    {
+      "game": "skatebird",
+      "strategy": "profile",
+      "files": [
+        {
+          "src": "skatebird-cyberpunk-2077-takeover.zip",
+          "dst": "{game}",
+          "unpack": true,
+          "contents": [
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/beep.wav",
+              "sha256": "15c42dc5fa2983009fffb5afeae614657753aefb41bda5f6b963e760d27f113b"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/buzz.wav",
+              "sha256": "fa6592d61b0e6f42a13901785f6e7fda52f1845af5b2e21349e5677cbce9dcfc"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/drop.wav",
+              "sha256": "0f4b6bef1487286d1452caade84b562a340108d0b7388f6eb7271584a3981c18"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/eddie.wav",
+              "sha256": "a661dbcb5b01e7babeb05c97da6507eaf5adbdb2ef2e401e6310b8ab596aca1a"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/glitch.wav",
+              "sha256": "6d0d8eb8174a8df5e95794f0d8bc4d92990f4accf1c0ce2f38c45e743210b969"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/glitch2.wav",
+              "sha256": "989fad6f8e042e88bb64a89a7ec9b66017d041d76d880cc6fe9f7c308764c543"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/johnny.png",
+              "sha256": "d050304a9784cea83976319f526d2157da351b26ccc5084c4504333d8df9ccf0"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/music.wav",
+              "sha256": "c6377900bd08195a3a01f007d1d9358d0127cf819d0c45223f20bd5007976921"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sign_bd.png",
+              "sha256": "437b16921e6ca6c6b65438179e5b99b37799e8bf166c81cfa3950f9dfdb3a773"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sign_chrome.png",
+              "sha256": "637c5262dc5e1d31290d71b0714ab2563e734e73055620e23188489d3ab6bd30"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sign_kibble.png",
+              "sha256": "a199ad60cab9ae2a8aa8b07d34c95b4a8ce2fa9f5e86df7e2e566d814e058a43"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sign_ncpb.png",
+              "sha256": "cdfca630485d439e4a52d57f129d29df1a62edbc64b8c476d5c5e415c3364274"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sign_nightcity.png",
+              "sha256": "642039ad172b53963462e4d0d96343b8b0fb6c8eae12fbf77914cfbf2006e70b"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sign_samurai.png",
+              "sha256": "70c1bdc797aa07b5b08384c4e20638754ab57a7845230990ac2673c9ad423cbf"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sign_seeds.png",
+              "sha256": "e1fb84f2ae96b382faf9fe45e6bf0d71906caa6c046f67b3972077c0631993c6"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sign2_neon_kanji.png",
+              "sha256": "1d66e5067a97b31e18c0d0578578f44c38bf9c9a402c05630de38c589de4a5a2"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sign4_open.png",
+              "sha256": "85772a09f8922375a583396287365cffff3bb779c577d85857038a9e5e7108a1"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sign5_sushi.png",
+              "sha256": "90fa384af47cc1afc5a9e940ef49232798ca5717136d0432be71d8f639d7c9c5"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/skyline.png",
+              "sha256": "5795685a72eb4dc6350d30d0d74caea19cafe2630d57943dd7ce4909df2cf0bc"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/tower_a.png",
+              "sha256": "3be7dee4767323f6f25d7bb19fcbec92878bc5413ef9c68fe797536921637aa3"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/tower_b.png",
+              "sha256": "815310bb2b50fa03e12c7b2d48701004c23f858621b28ffb55d532ff7a22fc71"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/tower_c.png",
+              "sha256": "8b4523da3ecffd266c0ab259b9ab329ee576cc7ef9e6446dfdef7cb3068c3b4c"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/whoosh.wav",
+              "sha256": "c9853a379c994d26faa7e58acb54b2fb7b545191b73dd3b6b6ade1fba70b1ba0"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/SigfMix.dll",
+              "sha256": "f0e92128671cd0e0052e01240edebf564ff6358ea77cdbdfb7ea963c6100fca3"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/SigfMix.pdb",
+              "sha256": "14251bc301ec417f4d80cab2fac3bba93fd28e2a17e599c27e4e898a7b02d8a4"
+            }
+          ],
+          "url": "https://github.com/SIGFAI/skatebird-cyberpunk-2077-takeover/releases/download/v1.0.0/skatebird-cyberpunk-2077-takeover.zip",
+          "sha256": "1639bc4695159b650cb7b42e12df2a1d3edc0d34c8ec3f6d98e73d0f729d8f76",
+          "size": 5781575
+        }
+      ],
+      "loader": "bepinex"
+    }
+  ],
+  "launch": [
+    {
+      "game": "skatebird",
+      "args": []
+    }
+  ],
+  "files": [
+    {
+      "name": "skatebird-cyberpunk-2077-takeover.zip",
+      "url": "https://github.com/SIGFAI/skatebird-cyberpunk-2077-takeover/releases/download/v1.0.0/skatebird-cyberpunk-2077-takeover.zip",
+      "sha256": "1639bc4695159b650cb7b42e12df2a1d3edc0d34c8ec3f6d98e73d0f729d8f76",
+      "size": 5781575
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/SIGFAI/skatebird-cyberpunk-2077-takeover",
+    "license": "MIT"
+  },
+  "media": {
+    "clip": "https://sigf.ai/clips/2026-10-08-f18c3bbb.mp4"
+  },
+  "built_by": {
+    "agent": "SIGF",
+    "model": "claude-opus-5.5"
+  },
+  "idea_by": "team",
+  "kit": {
+    "id": "skatebird",
+    "status": "draft"
+  },
+  "built_at": "2026-10-08T17:48:26.679Z"
+}
