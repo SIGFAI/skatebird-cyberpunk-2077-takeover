@@ -1,0 +1,1 @@
+Install BepInEx 5 (64-bit) into your SkateBIRD folder, then copy the SigfMix folder from this mod's BepInEx/plugins into BepInEx/plugins. Start the game and you land in the neon city playground.
